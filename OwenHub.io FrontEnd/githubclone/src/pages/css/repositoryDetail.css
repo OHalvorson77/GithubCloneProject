@@ -1,0 +1,132 @@
+/* Repository Detail */
+.repository-detail-container {
+    padding: 20px;
+    padding-left:150px;
+    padding-right:150px;
+    height: 100%;
+    
+    background-color: #282c34;
+    
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align:left;
+    padding-bottom:20px;
+    color: white;
+    border-bottom: 2px solid white; /* Change color and thickness */
+    
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .code-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;        /* Make it respect container width */
+    text-align: left;      /* Align text left */
+  }
+  
+  .code-button:hover {
+    background-color: #218838;
+  }
+  
+  .file-grid {
+    display: flex;
+    flex-direction: column;  /* Stack vertically */
+    gap: 0px;
+    border-radius:6px;
+    margin-top: 20px;
+  }
+  
+  .file-item {
+    background-color: #1a202c;
+    border: 1px solid #ccc;
+    padding: 12px;
+    color:white;
+    
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align:left;
+    width:70%;
+  }
+  
+  .file-item:hover {
+    background-color: #e6e6e6;
+  }
+
+  .file-preview {
+    margin-top: 2rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+  
+  .file-preview-header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .file-preview-editor {
+    width: 100%;
+    min-height: 300px;
+    font-family: monospace;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    resize: vertical;
+    white-space: pre-wrap;
+    background-color: #fefefe;
+    padding: 1rem;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+
+  .comments-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    width:60%;
+    text-align:left;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .comment-form textarea,
+  .comment-form input {
+    width: 80%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-size: 14px;
+    border-radius:10px;
+  }
+  
+  .comment-form select {
+    margin-left: 0.5rem;
+
+  }
+  
+  .comment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  

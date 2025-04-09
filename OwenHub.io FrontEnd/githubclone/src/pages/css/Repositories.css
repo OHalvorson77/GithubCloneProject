@@ -1,0 +1,77 @@
+/* Repositories List */
+.repositories-container {
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+
+  }
+  
+  .repositories-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .repository-item {
+    margin-bottom: 15px;
+  }
+  
+  .repository-card {
+    background-color: #1a202c;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+    text-align: left;
+    
+  }
+  
+  .repository-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .repository-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .create-repo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .create-repo input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-repo button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .create-repo button:hover {
+    background-color: #218838;
+  }
+
+  .clone-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .clone-btn:hover {
+    background-color: #218838;
+  }
+  
+
+  
+

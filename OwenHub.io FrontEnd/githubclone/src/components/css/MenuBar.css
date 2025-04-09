@@ -1,0 +1,91 @@
+
+.banner-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.banner-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+
+}
+
+.dot-io {
+  color: #4f46e5;
+}
+
+.username-tag {
+  font-size: 1.25rem;
+  color: #666;
+  font-weight: 500;
+}
+
+
+.dot-io {
+  color: #4f46e5; /* Optional: highlight the ".io" part in a distinct color */
+}
+
+.menu-bar {
+    background-color: #1a202c;
+    color: white;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .menu-items {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-items a:hover {
+    color: #a0aec0;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-container input {
+    background-color: #2d3748;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    color: #a0aec0;
+  }
+  
+  .profile-icon {
+    color: #a0aec0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .profile-icon:hover {
+    color: white;
+  }
+  

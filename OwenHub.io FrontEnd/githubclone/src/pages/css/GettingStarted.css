@@ -1,0 +1,59 @@
+.getting-started-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1f2937;
+  }
+  
+  .step-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .step {
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid #3b82f6;
+  }
+  
+  .step-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1e40af;
+  }
+  
+  .step-description {
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.6;
+  }
+  
+  code {
+    background-color: #f3f4f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.95rem;
+  }
+  
+  strong {
+    color: #111827;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  

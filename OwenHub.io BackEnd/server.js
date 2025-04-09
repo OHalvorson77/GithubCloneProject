@@ -348,6 +348,7 @@ app.get("/clone/:repoName", (req, res) => {
         const archive = require("archiver")("zip");
 
         outputZip.on("close", () => {
+            res.setHeader("X-Repo-Name", name);
             res.download(outputZipPath, `${name}.zip`, (err) => {
                 if (err) {
                     console.error("Error downloading zip file:", err);
