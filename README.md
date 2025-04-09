@@ -16,8 +16,13 @@ OwenHub.io is a self-built GitHub alternative that includes a custom version con
 
 🛠️ Tech Stack
 Component	Technology
+
 Frontend	React.js
+
 Backend	Node.js, Express
+
 CLI Tool	Python
+
 Database	MongoDB + GridFS
+
 File Handling	Multer, Archiver
